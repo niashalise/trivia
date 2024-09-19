@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Trivia</title>
+</head>
+<body>
+    <h1>Philly Trivia</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlNMlGr9FN8UVCNzRMVk6WODcMTfwfjvL4kw&s" alt="philadelphia skyline" class="philly" >
+    <fieldset class="food">
+        <legend>Which of these foods are not native to Philadelphia?</legend>
+        <input type="radio" id="cheesesteak" name="food" value="cheesesteak" />
+        <label for="cheesesteak">Cheesesteak</label> 
+
+        <input type="radio" id="water-ice" name="food" value="waterice" />
+        <label for="water-ice">Water Ice</label>
+
+        <input type="radio" id="soft-pretzel" name="food" value="soft-pretzel" />
+        <label for="soft-pretzel">Soft Pretzel</label>
+
+        <input type="radio" id="pork-roll" name="food" value="pork-roll" />
+        <label for="pork-roll">Pork Roll</label>
+    </fieldset>
+    
+    <fieldset class="statues">
+        <legend>What famous statue is located in Philadelphia?</legend>
+        <input type="radio" id="rocky" name="statue" value="rocky" />
+        <label for="rocky">Rocky</label>
+
+        <input type="radio" id="portlandia" name="statue" value="portlandia" />
+        <label for="portlandia">Portlandia</label>
+
+        <input type="radio" id="lincoln" name="statue" value="lincoln" />
+        <label for="lincoln">Lincoln</label>
+
+        <input type="radio" id="greeter" name="statue" value="greeter" />
+        <label for="greeter">"The Greeter"</label>
+    </fieldset>
+
+    <fieldset class="teams">
+        <legend>Which team is not a Philly sports team?</legend>
+        <input type="radio" id="sixers" name="team" value="sixers" />
+        <label for="sixers"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1FHlpT0wdRGwo5qe4pYNqH16xS7DlEQaEA&s" alt="sixers logo" class="team"></label>
+
+        <input type="radio" id="raptors" name="team" value="raptors" />
+        <label for="raptors"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhR-hlXIkKvQAx_h-ibgNU-VPUNJNDt6kC1w&s" alt="raptors logo" class="team"></label>
+
+        <input type="radio" id="phillies" name="team" value="phillies" />
+        <label for="phillies"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLCe9knRi1FJKiYan7hGo7BptH5XW1SB8Ydg&s" alt="phillies logo" class="team"></label>
+
+        <input type="radio" id="eagles" name="team" value="eagles" />
+        <label for="eagles"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ti3W9T0HiLTttuJ7015OcNu5LKUpgOIhlQ&s" alt="eagles logo" class="team"></label>
+
+    </fieldset>
+
+    <fieldset class="celebrities">
+        <legend>Which famous person is from Philadelphia?</legend>
+        <input type="radio" id="queen" name="celebrity" value="queen" />
+        <label for="queen">Queen Latifah</label>
+
+        <input type="radio" id="jordan" name="celebrity" value="jordan" />
+        <label for="jordan">Michael Jordan</label>
+
+        <input type="radio" id="willsmith" name="celebrity" value="willsmith" />
+        <label for="willsmith">Will Smith</label>
+
+        <input type="radio" id="donna" name="celebrity" value="donna" />
+        <label for="donna">Donna Summer</label>
+    </fieldset>
+    <button type="submit">Check Answers</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
